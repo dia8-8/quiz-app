@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="950.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet301.StudentController">
+   <children>
+      <AnchorPane prefHeight="85.0" prefWidth="950.0" style="-fx-background-color: #AD5EFB;">
+         <children>
+            <Label fx:id="welcomeMsg" layoutX="25.0" layoutY="21.0" text="Welcome" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="219.0" layoutY="186.0" onMouseClicked="#ViewAssignements" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E2DAE9;">
+         <children>
+            <FontAwesomeIconView fill="#883da3" glyphName="ARROW_DOWN" layoutX="70.0" layoutY="90.0" size="64" />
+            <Label layoutX="26.0" layoutY="141.0" text="Assignements" textFill="#883da3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+      <AnchorPane layoutX="535.0" layoutY="186.0" onMousePressed="#SignOut" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #E2DAE9;">
+         <children>
+            <Label layoutX="53.0" layoutY="135.0" text="Sign Out" textFill="#883da3">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="#883da3" glyphName="SIGN_OUT" layoutX="62.0" layoutY="95.0" size="80" />
+         </children>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </AnchorPane>
+   </children>
+</AnchorPane>

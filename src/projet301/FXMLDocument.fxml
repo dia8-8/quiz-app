@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="950.0" style="-fx-background-color: #2E2222;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet301.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="491.0" layoutY="54.0" prefHeight="462.0" prefWidth="407.0" style="-fx-background-color: #FF3333;">
+         <children>
+            <PasswordField fx:id="passwordField" layoutX="57.0" layoutY="213.0" prefHeight="35.0" prefWidth="285.0" promptText="Password" />
+            <TextField fx:id="usernameField" layoutX="57.0" layoutY="117.0" prefHeight="35.0" prefWidth="285.0" promptText="username/email" />
+            <Button fx:id="signInBtn" layoutX="55.0" layoutY="304.0" mnemonicParsing="false" onAction="#SignIn" prefHeight="35.0" prefWidth="292.0" style="-fx-background-color: #FF6161;" text="Sign in" textFill="#cdc9c9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="163.0" layoutY="28.0" text="Sign in" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="143.0" layoutY="412.0" text="Forgot Password?" textFill="#c5c3c3" underline="true">
+               <font>
+                  <Font name="Arial" size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label fx:id="errorMsg" alignment="CENTER" contentDisplay="CENTER" layoutX="46.0" layoutY="370.0" prefWidth="315.0" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="571.0" fitWidth="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../WhatsApp%20Image%202021-01-21%20at%2023.33.49%20(1).jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="165.0" layoutY="411.0" text="Welcome to QuizApp" textFill="#f73131">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUpBtn" layoutX="215.0" layoutY="469.0" mnemonicParsing="false" onAction="#SignUp" prefHeight="28.0" prefWidth="139.0" style="-fx-background-color: #FF6161;" text="Sign up" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+</AnchorPane>
