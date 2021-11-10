@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projet301.jnlp">
+  <information>
+    <title>Projet301</title>
+    <vendor>Malek</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Projet301.jar" size="125096" download="eager" />
+    <jar href="lib\fontawesomefx-8.4.jar" size="169129" download="eager" />
+    <jar href="lib\fontawesomefx-8.9.jar" size="571068" download="eager" />
+    <jar href="lib\fontawesomefx-commons-9.1.2.jar" size="24064" download="eager" />
+    <jar href="lib\fontawesomefx-fontawesome-4.7.0-9.1.2.jar" size="137226" download="eager" />
+    <jar href="lib\javafx-swt.jar" size="37110" download="eager" />
+    <jar href="lib\javafx.base.jar" size="745369" download="eager" />
+    <jar href="lib\javafx.controls.jar" size="2531028" download="eager" />
+    <jar href="lib\javafx.fxml.jar" size="128790" download="eager" />
+    <jar href="lib\javafx.graphics.jar" size="4341110" download="eager" />
+    <jar href="lib\javafx.media.jar" size="266912" download="eager" />
+    <jar href="lib\javafx.swing.jar" size="88725" download="eager" />
+    <jar href="lib\javafx.web.jar" size="725645" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.22.jar" size="2389216" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="projet301.Projet301"  name="Projet301" />
+  <update check="always"/>
+</jnlp>

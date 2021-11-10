@@ -1,0 +1,12 @@
+Question:1+1
+a) 2
+b) 5
+c) 11
+Answer: 2
+////
+Question:2+5
+a) 9
+b) 7
+c) 8
+Answer: 7
+////

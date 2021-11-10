@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="614.0" prefWidth="988.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet301.AssignementsController">
+   <children>
+      <AnchorPane prefHeight="85.0" prefWidth="988.0" style="-fx-background-color: #AD5EFB;">
+         <children>
+            <Label layoutX="31.0" layoutY="21.0" text="Assignements" textFill="WHITE">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="BackBtn" layoutX="901.0" layoutY="28.0" mnemonicParsing="false" onAction="#back" prefHeight="24.0" prefWidth="73.0" style="-fx-background-color: #D99BFB;" text="Back" textFill="WHITE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ListView fx:id="list" layoutX="48.0" layoutY="96.0" prefHeight="442.0" prefWidth="893.0" />
+      <Button fx:id="openBtn" disable="true" layoutX="868.0" layoutY="557.0" mnemonicParsing="false" onAction="#Open" prefHeight="30.0" prefWidth="73.0" style="-fx-background-color: green;" text="Open" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
